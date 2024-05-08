@@ -1,0 +1,35 @@
+h1{
+    font-family: "SF Pro Display", serif;
+}
+#triangles{
+    display: flex;
+    gap: 30px;
+}
+#triangle-upright{
+    width: 0;
+    height: 0;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    border-bottom: 50px solid #32012F;
+}
+#triangle-right{
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 50px solid #E2DFD0;
+    border-bottom: 25px solid transparent;
+}
+#triangle-downright{
+    width: 0;
+    height: 0;
+    border-top: 50px solid #524C42;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+}
+#triangle-left{
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-right: 50px solid #F97300;
+    border-bottom: 25px solid transparent;
+}
